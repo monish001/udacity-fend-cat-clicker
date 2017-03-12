@@ -20,9 +20,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <main class="cat-app">
-            <img class="cat-app__img" src="http://placekitten.com/g/400/300"/>
-            <div class="cat-app__score"></div>
+        <main>
+            <div class="cat-app" id="cat-app-1">
+                <img class="cat-app__img" src="http://placekitten.com/g/400/300"/>
+                <div class="cat-app__score">Score: 0</div>
+            </div>
+            <div class="cat-app" id="cat-app-2">
+                <img class="cat-app__img" src="http://placekitten.com/g/401/301"/>
+                <div class="cat-app__score">Score: 0</div>
+            </div>
         </main>
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
