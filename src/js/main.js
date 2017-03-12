@@ -1,3 +1,5 @@
+'use strict';
+
 /**
     If you're writing Cat Clicker with vanilla JS (no jQuery), you'll be adding the "click" event with elem.addEventListener().
 
@@ -11,7 +13,6 @@
     //the element has been clicked... do stuff here
     });
  */
-
 var catApp = catApp || {};
 
 (function(app){
